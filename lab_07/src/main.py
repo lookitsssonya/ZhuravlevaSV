@@ -1,5 +1,3 @@
-"""Главный файл для запуска лабораторной работы по кучам."""
-
 from heap import MaxHeap, MinHeap
 from heapsort import heapsort, heapsort_inplace
 from performance_analysis import (
@@ -117,3 +115,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
