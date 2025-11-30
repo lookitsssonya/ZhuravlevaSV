@@ -32,7 +32,7 @@ def measure_time(func, *args, iterations: int = 1) -> float:
     """Точное измерение времени выполнения."""
     start = time.perf_counter()
     for _ in range(iterations):
-        func(*args)  # Результат не используется
+        func(*args)
     end = time.perf_counter()
     return (end - start) / iterations
 
@@ -194,3 +194,4 @@ if __name__ == '__main__':
     compare_knapsack_approaches()
     analyze_dp_scalability()
     test_practical_problems()
+
