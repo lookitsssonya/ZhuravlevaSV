@@ -250,7 +250,7 @@ class GraphAnalyzer:
         print('Вершины | Время (сек)')
         print('-' * 25)
         for size_val, time_val in zip(dijkstra_sizes, dijkstra_times):
-            print(f"{size_val:7} | {time_val:.6f}")
+            print(f'{size_val:7} | {time_val:.6f}')
 
         print(f'\nСложность: O((V + E) log V)')
 
@@ -343,3 +343,4 @@ if __name__ == '__main__':
     analyzer.test_dijkstra_performance()
 
     analyzer.demonstrate_algorithms()
+
